@@ -1,0 +1,37 @@
+{
+    "name": "laxinplus/openapi-php-sdk",
+    "version": "1.0.0",
+    "description": "LanXin+ OpenAPI Platform",
+    "keywords": [
+        "openapi",
+        "php",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://openapi.lanxin.cn",
+    "license": "unlicense",
+    "authors": [
+        {
+            "name": "LanXin+ contributors",
+            "homepage": "https://openapi.lanxin.cn"
+        }
+    ],
+    "require": {
+        "php": "^7.3 || ^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0 || ^9.0",
+        "friendsofphp/php-cs-fixer": "^2.12"
+    },
+    "autoload": {
+        "psr-4": { "LanXinPlusOpenAPI\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "LanXinPlusOpenAPI\\Test\\" : "test/" }
+    }
+}
